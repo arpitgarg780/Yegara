@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/icon_search"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/icon_order"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/icon_domain"
+            android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/icon_chat"
+            android:title="@string/menu_chat"/>
+    </group>
+    <item>
+        <menu>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/resources"
+            android:icon="@drawable/icon_resources"
+            android:title="@string/menu_Resources"/>
+        <item
+            android:id="@+id/visit"
+            android:icon="@drawable/icon_visit"
+            android:title="@string/menu_visit"/>
+    </group>
+        </menu>
+    </item>
+    <item android:title="logot">
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:title="Logout"/>
+        </menu>
+    </item>
+</menu>
